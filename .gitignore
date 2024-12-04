@@ -1,0 +1,40 @@
+# Backend (Spring Boot)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/  
+
+# IDEs (IntelliJ, Eclipse, VS Code)
+.idea/
+*.iws
+*.iml
+*.ipr
+/.project
+/.classpath
+.settings
+.vscode/*
+
+# Frontend (Angular)
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node modules
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
